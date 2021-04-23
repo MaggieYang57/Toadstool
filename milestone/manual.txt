@@ -1,0 +1,6 @@
+MILESTONE PROJECT - TOADSTOOL KEYS
+-------Maggie Yang------
+
+Pressing 'P' - Starts the game
+Pressing 'Spacebar' - Jump
+Pressing 'W'/'A'/'S'/'D' - moves frog forward/left/back/right

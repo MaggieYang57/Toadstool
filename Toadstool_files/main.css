@@ -1,0 +1,21 @@
+
+html, body, container {
+   background-color: #ffffff;
+}
+
+#download {
+   position: fixed;
+   right: 25px;
+   bottom: 25px;
+}
+
+.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+ 
+   > .col,
+   > [class*="col-"] {
+     padding-right: 0;
+     padding-left: 0;
+   }
+ }

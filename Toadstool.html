@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://mixedrealitylab.io/project_websites/MMOJNR/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Toadstool</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+   <!-- <script src="main.js"></script> -->
+   <link rel="stylesheet" href="./Toadstool_files/css">
+   <link rel="stylesheet" href="./Toadstool_files/bootstrap-material-design.min.css">
+   <link rel="stylesheet" href="./Toadstool_files/main.css">
+
+   <link rel="apple-touch-icon" sizes="57x57" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/favicon-16x16.png">
+   <link rel="manifest" href="http://mixedrealitylab.io/project_websites/MMOJNR/images/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+   <div class="jumbotron" style="margin-bottom:0">
+      <div class="container">
+         <h1 class="display-4">Toadstool</h1>
+         <p class="lead">
+            A scrolling platform game made by Maggie Yang for the CPE 471 milestone project at 
+            Cal Poly State University in San Luis Obispo, CA.
+         </p>
+         <hr class="my-4">
+         <p>California Polytechnic State University, San Luis Obispo, 2021.</p>
+         <p>myang57@calpoly.edu</p>
+      </div>
+   </div>
+
+   <div class="row no-gutters" style="background-color:#575757">
+      <div class="col"></div>
+      <div id="game-images" class="carousel slide col-md-10 col-xl-8" data-ride="carousel">
+         <img class="d-block w-100" src="./Toadstool_files/screenshot.png" alt="First slide">
+      </div>
+      <div class="col"></div>
+   </div>
+
+   <div class="container" style="margin-top:20px;">
+      <div class="row">
+         <div class="col">
+            <h2>About</h2>
+            <br>
+
+            <h4>Description</h4>
+            <p>
+               A front-scrolling game where the user controls a frog that has to jump on top of mushrooms until it reaches the coveted water. 
+               The game will reset to the beginning if the frog's position is behind the camera or if it falls to the ground.
+               The game ends when the frog reaches the water and can finally enjoy the view!
+            </p>
+            <br>
+
+            <h4>Controls</h4>
+            <p>
+               Press P to start the game and to be able to control the frog.<br />
+               The frog can only control its direction once it is in the air. Press SPACE to jump, and WASD to control the direction.
+            </p>
+            <br>
+
+            <h4>Concepts Utilized</h4>
+            <ul>
+                <p>Collision Detection</p>
+                <p>Infinite Terrain & Skysphere</p>
+                <p>Diffuse / Specular Lighting</p>
+                <p>Texture / Normal / Height Mapping</p>
+                <p>Hierarchical Modeling</p>
+                <p>Billboard Animation</p>
+                <p>Post-processing: Gamma Correction</p>
+            </ul>
+            <div style="text-align: center">
+               <video width="920" height="540" controls>
+                  <source src="./Toadstool_files/FINAL.mp4" type="video/mp4">
+               Your browser does not support the video tag.
+               </video>
+            </div>
+         </div>
+      </div>
+      <hr>
+      <div class="row">
+         <div class="col">
+            <h2>Architecture</h2>
+            <br>
+            <h4>OpenGL</h4>
+            <p>
+               The game was written using the OpenGL API.
+               It also used <a href="http://www.glfw.org/" target="_blank">GLFW</a> and 
+               <a href="https://glm.g-truc.net/0.9.9/index.html" target="_blank">GLM</a>.
+            </p>
+            <br>
+            <h2>Download Links </h2>
+            <a href="./Toadstool_files/FINAL.mp4" download>Video File</a> <br />
+            <a href="./MAGGIE_YANG_MILESTONE.zip" download>Project .zip</a>
+            <hr>
+         </div>
+      </div>
+   </div>
+
+   <script src="./Toadstool_files/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="./Toadstool_files/popper.js.download" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+   <script src="./Toadstool_files/bootstrap-material-design.min.js.download"></script>
+   <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+
+</body></html>
